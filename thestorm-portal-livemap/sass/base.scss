@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300,800);
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+::selection {
+  color: #fff;
+  background-color: #000;
+}
+
+.logo {
+  margin: 15vh 0; }
+
+.logo__image {
+  max-width: 100%;
+  height: auto; }
+
+.portal {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/map.jpg");
+}
+
+.links {
+  margin-top: 5vh;
+}
+
+@media screen and (max-width: 48em) {
+  .links {
+    margin-top: 0vh;
+  }
+}
+
+.links__link {
+  text-align: center;
+  display: block;
+  background: #252829;
+  color: #fff;
+  padding-top: 7.5vh;
+  padding-bottom: 7.5vh;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+  text-decoration: none;
+  transition: background .25s ease-in-out;
+  &:hover, &:active, &:focus {
+    color: #fff;
+    background: #4dccc4;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .links__link {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 35.5em) {
+  .links__link {
+    font-size: 5vw;
+  }
+}
+
+.links__link--bottom {
+  font-size: 1.5vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  background: lighten(#252829, 10%);
+}
+
+@media screen and (max-width: 48em) {
+  .links__link {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 35.5em) {
+  .links__link {
+    font-size: 4vw;
+  }
+}

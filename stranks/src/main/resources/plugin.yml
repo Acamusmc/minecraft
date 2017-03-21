@@ -1,0 +1,23 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: Jerred Shepherd (RiotShielder)
+website: http://shepherdjerred.com/
+
+depend: [Vault]
+
+main: com.shepherdjerred.stranks.Main
+
+permissions:
+    stRanks.rank:
+        description: Use /rank
+        default: true
+    stRanks.list:
+        description: Use /rank list
+        default: true
+    stRanks.info:
+        description: Use /rank info
+        default: true
+    stRanks.buy:
+        description: Use /rank buy
+        default: true

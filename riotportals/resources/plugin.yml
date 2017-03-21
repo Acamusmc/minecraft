@@ -1,0 +1,14 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: ${organization.name}
+website: ${organization.url}
+
+main: com.shepherdjerred.riotportals.Main
+
+commands:
+    riotportals:
+        description: Main commands for the RiotPortals plugin
+        aliases: [portal]
+        permission: RiotPortals.commands.main
+        usage: /riotportals

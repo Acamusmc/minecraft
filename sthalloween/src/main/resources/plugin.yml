@@ -1,0 +1,21 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: ${organization.name}
+website: ${organization.url}
+
+main: com.shepherdjerred.sthalloween.Main
+
+commands:
+    sth:
+        description: Base command
+        aliases: [sthalloween]
+        
+permissions:
+    stHalloween.*:
+        description: Gives access to all plugin functions
+        children:
+            stHalloween.reload: true
+    stHalloween.reload:
+        description: Gives access to /sth reload
+        default: op

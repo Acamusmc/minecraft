@@ -1,0 +1,25 @@
+# IDE files and folders
+.project
+.classpath
+*.iml
+.idea/
+.settings/
+
+# Compiled files
+*.class
+
+# OS files.
+.DS_Store*
+Thumbs.db
+
+# Misc folders
+bin/
+build/
+misc/
+lib/
+test/
+target/
+
+# Misc files
+MobArena.jar
+build.properties

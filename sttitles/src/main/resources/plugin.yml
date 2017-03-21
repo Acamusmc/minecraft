@@ -1,0 +1,13 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: ${organization.name}
+website: ${organization.url}
+
+main: com.shepherdjerred.sttitles.Main
+
+permissions:
+    stTitles.*:
+        description: Gives access to all plugin functions
+        children:
+            stTitles.title.*: true
